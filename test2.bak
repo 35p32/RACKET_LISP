@@ -1,0 +1,8 @@
+#lang racket
+(define (fun a  b)
+  (cond
+    [(a>b) -1]
+    [(a<b) 1]
+    [(a=b) 0]
+    )
+  )
